@@ -269,7 +269,7 @@ const Dashboard = () => {
 
       {/*Design Footer Like This Section */}
 
-      <section className="w-full bg-white py-16">
+      <section className="w-full bg-[#F5F7FA] py-16">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-6">
           <div className="flex justify-center">
             <img
@@ -298,7 +298,7 @@ const Dashboard = () => {
              British Dragon Boat Racing Association
             </p>
 
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between items-center mt-8">
               {clientImages2.map((logo, index)=> (
             <img
               key={index}
@@ -307,7 +307,7 @@ const Dashboard = () => {
               className="h-10 w-10 object-contain"
             />
           ))}
-          <p>Meet all the customer</p>
+          <button className="text-[#4CAF4F] font-semibold">Meet all the customer</button>
             </div>
           </div>
         </div>
