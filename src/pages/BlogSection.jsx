@@ -61,7 +61,7 @@ const Blog = () => {
                 <h3 className="text-[#4D4D4D] font-semibold text-lg leading-7">
                   {blog.title}
                 </h3>
-
+                
                 <p className="text-[#4CAF4F] mt-4 font-semibold cursor-pointer">
                   Readmore →
                 </p>
