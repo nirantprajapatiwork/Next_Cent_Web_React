@@ -43,7 +43,7 @@ const Blog = () => {
     </div>
 
     {/* Blog Cards */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
       {blogs.map((blog) => (
         <div key={blog.id} className="relative pb-28">
 
@@ -59,7 +59,7 @@ const Blog = () => {
                           bg-[#F5F7FA] rounded-lg shadow-lg p-6 
                           w-[90%] sm:w-[85%] text-center">
 
-            <h3 className="text-[#4D4D4D] font-semibold text-base md:text-lg leading-7">
+            <h3 className="text-[#717171] font-semibold text-base md:text-lg leading-7">
               {blog.title}
             </h3>
 
