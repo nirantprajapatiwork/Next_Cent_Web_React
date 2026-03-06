@@ -45,7 +45,7 @@ const Navbar = () => {
             Signup
           </button>
         </div>
-
+        
         {/* Mobile / Tablet Menu Icon */}
         <div
           className="lg:hidden text-2xl cursor-pointer"
@@ -58,7 +58,7 @@ const Navbar = () => {
       {/* Mobile / Tablet Menu */}
       <div
         className={`lg:hidden bg-white w-full transition-all duration-300 ${
-          menu ? "max-h-[400px] py-8" : "max-h-0 overflow-hidden"
+          menu ? "max-h-100 py-8" : "max-h-0 overflow-hidden"
         }`}
       >
         <ul className="flex flex-col items-center gap-6 text-gray-700 font-medium">

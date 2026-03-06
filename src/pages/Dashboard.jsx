@@ -33,14 +33,7 @@ const Dashboard = () => {
     Logo05,
     Logo06,
   ];
-    const clientImages2 = [
-    Logo_01,
-    Logo01,
-    Logo02,
-    Logo03,
-    Logo04,
-    Logo05,
-  ];
+  const clientImages2 = [Logo_01, Logo01, Logo02, Logo03, Logo04, Logo05];
 
   const cards = [
     {
@@ -120,6 +113,11 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+     <section className="w-full flex justify-center items-center bg-[#F5F7FA] pb-3 gap-2">
+  <div className="bg-[#4CAF4F] rounded-full h-2.5 w-2.5"></div>
+  <div className="bg-[#4CAF4F] rounded-full h-2.5 w-2.5 opacity-50"></div>
+  <div className="bg-[#4CAF4F] rounded-full h-2.5 w-2.5 opacity-50"></div>
+</section>
 
       {/* CLIENT SECTION */}
       <section className="w-full bg-white py-16">
@@ -295,19 +293,21 @@ const Dashboard = () => {
             </p>
             <h1 className="font-semibold text-[#4CAF4F] mt-4">Tim Smith</h1>
             <p className="text-[#717171] mt-4 text-sm sm:text-base leading-6">
-             British Dragon Boat Racing Association
+              British Dragon Boat Racing Association
             </p>
 
             <div className="flex flex-row justify-between items-center mt-8">
-              {clientImages2.map((logo, index)=> (
-            <img
-              key={index}
-              src={logo}
-              alt="client logo"
-              className="h-10 w-10 object-contain"
-            />
-          ))}
-          <button className="text-[#4CAF4F] font-semibold">Meet all the customer</button>
+              {clientImages2.map((logo, index) => (
+                <img
+                  key={index}
+                  src={logo}
+                  alt="client logo"
+                  className="h-10 w-10 object-contain"
+                />
+              ))}
+              <button className="text-[#4CAF4F] font-semibold">
+                Meet all the customer
+              </button>
             </div>
           </div>
         </div>
